@@ -1,0 +1,9 @@
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  ':': 'command-palette:toggle'
+'atom-text-editor.vim-mode.insert-mode':
+  'ctrl-b': 'vim-mode:move-left'
+  'ctrl-f': 'vim-mode:move-right'
+  'ctrl-a': 'editor:move-to-first-character-of-line'
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
+  'ctrl-d': 'core:delete'
+  'ctrl-h': 'core:backspace'

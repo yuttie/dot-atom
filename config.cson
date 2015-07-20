@@ -1,0 +1,38 @@
+"*":
+  "exception-reporting":
+    userId: "32cb7f2c-bae1-f5aa-3e75-17dc79b75d32"
+  welcome:
+    showOnStartup: false
+  core:
+    followSymlinks: true
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  "vim-mode":
+    useSmartcaseForSearch: true
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    tabLength: 4
+    fontFamily: "'Envy Code R', 'M+ 1m'"
+    fontSize: 11
+  "haskell-ghc-mod": {}
+  "autocomplete-haskell": {}
+  "autocomplete-plus": {}
+  linter: {}
+  minimap:
+    plugins:
+      "git-diff": true
+      linter: true
+      bookmarks: true
+      selection: true
+      "highlight-selected": true
+      pigments: true
+      "find-and-replace": true
+  hidpi: {}
+  "autocomplete-python": {}
+  "file-icons": {}
+  "atom-alignment": {}
+  "autocomplete-clang": {}
+  "atom-twitter-client": {}
