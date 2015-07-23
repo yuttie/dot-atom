@@ -42,3 +42,5 @@
     panelContrast: true
     showTabIcons: true
     tabSize: "Small"
+  jumpy:
+    highContrast: true

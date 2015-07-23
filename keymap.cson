@@ -7,3 +7,5 @@
   'ctrl-e': 'editor:move-to-end-of-screen-line'
   'ctrl-d': 'core:delete'
   'ctrl-h': 'core:backspace'
+'atom-text-editor:not(.mini).vim-mode:not(.insert-mode):not(.jumpy-jump-mode)':
+    'space j': 'jumpy:toggle'
