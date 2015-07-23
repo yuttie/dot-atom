@@ -33,6 +33,7 @@ packages: [
   "package-sync"
   "pigments"
   "project-manager"
+  "quick-highlight"
   "racer"
   "rust-api-docs-helper"
   "seti-syntax"
