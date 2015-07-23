@@ -30,6 +30,7 @@
       "highlight-selected": true
       pigments: true
       "find-and-replace": true
+    displayMinimapOnLeft: true
   hidpi: {}
   "autocomplete-python": {}
   "file-icons": {}
