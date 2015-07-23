@@ -6,8 +6,8 @@
   core:
     followSymlinks: true
     themes: [
-      "atom-dark-ui"
-      "monokai"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
   "vim-mode":
     useSmartcaseForSearch: true
@@ -36,3 +36,9 @@
   "atom-alignment": {}
   "autocomplete-clang": {}
   "atom-twitter-client": {}
+  "atom-material-ui":
+    accentColor: "Orange"
+    compactTreeView: true
+    panelContrast: true
+    showTabIcons: true
+    tabSize: "Small"
