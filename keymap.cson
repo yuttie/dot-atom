@@ -1,5 +1,3 @@
-'atom-text-editor.vim-mode:not(.insert-mode)':
-  ':': 'command-palette:toggle'
 'atom-text-editor.vim-mode.insert-mode':
   'ctrl-b': 'vim-mode:move-left'
   'ctrl-f': 'vim-mode:move-right'
