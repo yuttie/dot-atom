@@ -9,6 +9,9 @@
       "atom-material-ui"
       "atom-material-syntax"
     ]
+    disabledPackages: [
+      "markdown-preview"
+    ]
   "vim-mode":
     useSmartcaseForSearch: true
   editor:
@@ -47,3 +50,6 @@
     tabSize: "Small"
   jumpy:
     highContrast: true
+  "markdown-preview-katex": {}
+  "markdown-preview":
+    useGitHubStyle: true
