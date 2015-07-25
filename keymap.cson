@@ -9,5 +9,10 @@
  atom-text-editor.vim-mode.visual-mode':
   'space h': 'quick-highlight:toggle'
   'space H': 'quick-highlight:clear'
-'atom-text-editor:not(.mini).vim-mode:not(.insert-mode):not(.jumpy-jump-mode)':
-    'space j': 'jumpy:toggle'
+
+'atom-workspace atom-text-editor:not(.mini),
+ atom-workspace atom-text-editor.jumpy-jump-mode':
+  'shift-enter': 'unset!'
+'atom-text-editor.vim-mode.normal-mode:not(.jumpy-jump-mode),
+ atom-text-editor.vim-mode.visual-mode:not(.jumpy-jump-mode)':
+  'space j': 'jumpy:toggle'
