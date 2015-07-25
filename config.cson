@@ -22,7 +22,8 @@
     fontFamily: "'Envy Code R', 'M+ 1m', 'Source Han Code JP'"
   "haskell-ghc-mod": {}
   "autocomplete-haskell": {}
-  "autocomplete-plus": {}
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
   linter: {}
   minimap:
     plugins:
