@@ -49,6 +49,7 @@
     panelContrast: true
     showTabIcons: true
     tabSize: "Small"
+    rippleAccentColor: true
   jumpy:
     highContrast: true
   "markdown-preview-katex": {}
