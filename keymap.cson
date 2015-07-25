@@ -1,3 +1,13 @@
+'.command-palette atom-text-editor':
+  'ctrl-n': 'core:move-down'
+  'ctrl-p': 'core:move-up'
+  'ctrl-m': 'core:confirm'
+
+'atom-text-editor.vim-mode.normal-mode':
+  'space space': 'command-palette:toggle'
+'atom-text-editor.vim-mode.visual-mode':
+  'space space': 'command-palette:toggle'
+
 'atom-text-editor.vim-mode.insert-mode':
   'ctrl-b': 'vim-mode:move-left'
   'ctrl-f': 'vim-mode:move-right'
