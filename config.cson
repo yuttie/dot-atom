@@ -18,8 +18,8 @@
     invisibles: {}
     showIndentGuide: true
     tabLength: 4
-    fontSize: 11
     fontFamily: "'Envy Code R', 'M+ 1m', 'Source Han Code JP'"
+    fontSize: 10
   "haskell-ghc-mod": {}
   "autocomplete-haskell": {}
   "autocomplete-plus":
