@@ -5,12 +5,12 @@
     showOnStartup: false
   core:
     followSymlinks: true
+    disabledPackages: [
+      "markdown-preview"
+    ]
     themes: [
       "atom-material-ui"
       "atom-material-syntax"
-    ]
-    disabledPackages: [
-      "markdown-preview"
     ]
   "vim-mode":
     useSmartcaseForSearch: true
@@ -46,12 +46,12 @@
   "quick-highlight":
     decorate: "highlight"
   "atom-material-ui":
+    rippleAccentColor: true
     depth: true
-    accentColor: "Orange"
     compactTreeView: true
+    accentColor: "Orange"
     panelContrast: true
     showTabIcons: "Show on all tabs"
-    rippleAccentColor: true
   jumpy:
     highContrast: true
   "markdown-preview-katex": {}
