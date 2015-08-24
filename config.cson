@@ -20,6 +20,7 @@
     tabLength: 4
     fontFamily: "'Envy Code R', 'M+ 1m', 'Source Han Code JP'"
     fontSize: 11
+    scrollPastEnd: true
   "haskell-ghc-mod": {}
   "autocomplete-haskell": {}
   "autocomplete-plus":
