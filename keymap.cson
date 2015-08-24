@@ -51,3 +51,7 @@
   'ctrl-m': 'autocomplete-plus:confirm'
   'ctrl-p': 'core:move-up'
   'ctrl-n': 'core:move-down'
+
+'atom-text-editor:not([mini])':
+  'alt-n': 'linter:next-error'
+  'alt-p': 'linter:previous-error'
