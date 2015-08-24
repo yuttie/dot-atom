@@ -21,6 +21,7 @@
     fontFamily: "'Envy Code R', 'M+ 1m', 'Source Han Code JP'"
     fontSize: 11
     scrollPastEnd: true
+    softWrapAtPreferredLineLength: true
   "haskell-ghc-mod": {}
   "autocomplete-haskell": {}
   "autocomplete-plus":
