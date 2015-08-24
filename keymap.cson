@@ -48,6 +48,7 @@
   'ctrl-e': 'editor:move-to-end-of-screen-line'
   'ctrl-d': 'core:delete'
   'ctrl-h': 'core:backspace'
+
 'atom-text-editor.vim-mode.normal-mode,
  atom-text-editor.vim-mode.visual-mode':
   'space h': 'quick-highlight:toggle'
