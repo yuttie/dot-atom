@@ -58,3 +58,33 @@
   "markdown-preview":
     useGitHubStyle: true
   atomatigit: {}
+  "highlight-line":
+    hideHighlightOnSelect: true
+  "linter-rust":
+    jobsNumber: 4
+  "ide-haskell": {}
+  "one-light-ui": {}
+  "isotope-light-ui":
+    customBackgroundColor: "false"
+    fontFamily: "System Default"
+  "isotope-ui":
+    fontWeight: "Regular"
+    spaciousMode: true
+  "one-dark-ui": {}
+  "rust-api-docs-helper":
+    enableVisualHints: false
+  pigments: {}
+  "git-plus": {}
+  racer:
+    racerBinPath: "/usr/bin/racer"
+    rustSrcPath: "/home/yuta/rust/src"
+  "markdown-writer": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+".basic.html.text":
+  editor:
+    tabLength: 2
+".gfm.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
