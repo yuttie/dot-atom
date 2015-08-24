@@ -46,11 +46,11 @@
   "quick-highlight":
     decorate: "highlight"
   "atom-material-ui":
+    depth: true
     accentColor: "Orange"
     compactTreeView: true
     panelContrast: true
-    showTabIcons: true
-    tabSize: "Small"
+    showTabIcons: "Show on all tabs"
     rippleAccentColor: true
   jumpy:
     highContrast: true
