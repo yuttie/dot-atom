@@ -44,7 +44,7 @@
  atom-text-editor.vim-mode.visual-mode:not(.jumpy-jump-mode)':
   'space j': 'jumpy:toggle'
 
-'atom-text-editor:not(.mini).autocomplete-active':
+'atom-text-editor:not([mini]).autocomplete-active':
   'tab':    'autocomplete-plus:confirm'
   'ctrl-i': 'autocomplete-plus:confirm'
   'enter':  'autocomplete-plus:confirm'
