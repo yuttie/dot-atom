@@ -1,6 +1,7 @@
 packages: [
   "atom-alignment"
   "atom-material-syntax"
+  "atom-material-syntax-light"
   "atom-material-ui"
   "atom-twitter-client"
   "atomatigit"
@@ -14,6 +15,7 @@ packages: [
   "git-control"
   "git-log"
   "git-plus"
+  "gruvbox"
   "haskell-ghc-mod"
   "hidpi"
   "highlight-line"
@@ -46,6 +48,7 @@ packages: [
   "pen-paper-coffee-syntax"
   "pigments"
   "pipe"
+  "polaris-syntax"
   "project-manager"
   "quick-highlight"
   "racer"
