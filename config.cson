@@ -10,7 +10,7 @@
     ]
     themes: [
       "atom-material-ui"
-      "atom-material-syntax"
+      "outlander-syntax"
     ]
   "vim-mode":
     useSmartcaseForSearch: true
