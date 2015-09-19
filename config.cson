@@ -38,6 +38,7 @@
       pigments: true
       "find-and-replace": true
     displayMinimapOnLeft: true
+    displayCodeHighlights: false
   hidpi: {}
   "autocomplete-python": {}
   "file-icons": {}
