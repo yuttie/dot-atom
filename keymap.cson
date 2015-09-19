@@ -37,6 +37,11 @@
   'space h': 'quick-highlight:toggle'
   'space H': 'quick-highlight:clear'
 
+'atom-text-editor.vim-mode.normal-mode':
+  'space f f': 'fuzzy-finder:toggle-file-finder'
+  'space f b': 'fuzzy-finder:toggle-buffer-finder'
+  'space f g': 'fuzzy-finder:toggle-git-status-finder'
+
 'atom-text-editor:not([mini])':
   'alt-g alt-n': 'git-diff:move-to-next-diff'
   'alt-g alt-p': 'git-diff:move-to-previous-diff'
