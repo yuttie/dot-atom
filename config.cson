@@ -89,7 +89,13 @@
 ".basic.html.text":
   editor:
     tabLength: 2
+".ruby.source":
+  editor:
+    tabLength: 2
 ".gfm.source":
   editor:
     softWrap: true
     softWrapAtPreferredLineLength: true
+".source.yaml":
+  editor:
+    tabLength: 2
