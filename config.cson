@@ -51,9 +51,9 @@
     rippleAccentColor: true
     depth: true
     compactTreeView: true
-    accentColor: "Orange"
     panelContrast: true
     showTabIcons: "Show on all tabs"
+    accentColor: "Cyan"
   jumpy:
     highContrast: true
   "markdown-preview-katex": {}
