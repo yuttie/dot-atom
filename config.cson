@@ -83,6 +83,9 @@
   "markdown-writer": {}
   "git-diff":
     showIconsInEditorGutter: true
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
 ".basic.html.text":
   editor:
     tabLength: 2
