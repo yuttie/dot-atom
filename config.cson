@@ -23,6 +23,7 @@
     softWrapAtPreferredLineLength: true
     backUpBeforeSaving: true
     fontSize: 11
+    tabType: "soft"
   "haskell-ghc-mod": {}
   "autocomplete-haskell": {}
   "autocomplete-plus":
