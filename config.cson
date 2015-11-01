@@ -18,7 +18,7 @@
     invisibles: {}
     showIndentGuide: true
     tabLength: 4
-    fontFamily: "'Envy Code R', 'M+ 1m', 'Source Han Code JP'"
+    fontFamily: "'Hack', 'M+ 1m', 'Source Han Code JP'"
     scrollPastEnd: true
     softWrapAtPreferredLineLength: true
     backUpBeforeSaving: true
