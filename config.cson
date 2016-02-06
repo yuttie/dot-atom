@@ -1,102 +1,103 @@
 "*":
-  "exception-reporting":
-    userId: "32cb7f2c-bae1-f5aa-3e75-17dc79b75d32"
-  welcome:
-    showOnStartup: false
-  core:
-    followSymlinks: true
-    disabledPackages: [
-      "markdown-preview"
-    ]
-    themes: [
-      "atom-material-ui"
-      "outlander-syntax"
-    ]
-  "vim-mode":
-    useSmartcaseForSearch: true
-  editor:
-    invisibles: {}
-    showIndentGuide: true
-    tabLength: 4
-    fontFamily: "'Hack', 'M+ 1m', 'Source Han Code JP'"
-    scrollPastEnd: true
-    softWrapAtPreferredLineLength: true
-    backUpBeforeSaving: true
-    fontSize: 11
-    tabType: "soft"
-  "haskell-ghc-mod": {}
+  "atom-alignment": {}
+  "atom-material-ui":
+    accentColor: "Cyan"
+    compactTreeView: true
+    depth: true
+    panelContrast: true
+    rippleAccentColor: true
+    showTabIcons: "Show on all tabs"
+  "atom-twitter-client": {}
+  atomatigit: {}
+  "autocomplete-clang": {}
   "autocomplete-haskell": {}
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
-  linter: {}
-  minimap:
-    plugins:
-      "git-diff": true
-      linter: true
-      bookmarks: true
-      selection: true
-      "highlight-selected": true
-      pigments: true
-      "find-and-replace": true
-    displayMinimapOnLeft: true
-    displayCodeHighlights: false
-  hidpi: {}
   "autocomplete-python": {}
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "hidpi"
+    ]
+    followSymlinks: true
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "'Midway', 'Source Code Pro', 'M+ 1m', 'Source Han Code JP', 'PowerlineSymbols', 'icomoon', 'FontAwesome', 'github-octicons'"
+    fontSize: 12
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "32cb7f2c-bae1-f5aa-3e75-17dc79b75d32"
   "file-icons": {}
-  "atom-alignment": {}
-  "autocomplete-clang": {}
-  "atom-twitter-client": {}
-  "quick-highlight":
-    decorate: "highlight"
-  "atom-material-ui":
-    rippleAccentColor: true
-    depth: true
-    compactTreeView: true
-    panelContrast: true
-    showTabIcons: "Show on all tabs"
-    accentColor: "Cyan"
-  jumpy:
-    highContrast: true
-  "markdown-preview-katex": {}
-  "markdown-preview":
-    useGitHubStyle: true
-  atomatigit: {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-plus": {}
+  "haskell-ghc-mod": {}
+  hidpi: {}
   "highlight-line":
     hideHighlightOnSelect: true
-  "linter-rust":
-    jobsNumber: 4
   "ide-haskell": {}
-  "one-light-ui": {}
   "isotope-light-ui":
     customBackgroundColor: "false"
     fontFamily: "System Default"
   "isotope-ui":
     fontWeight: "Regular"
     spaciousMode: true
+  jumpy:
+    highContrast: true
+  linter: {}
+  "linter-rust":
+    jobsNumber: 4
+  "markdown-preview":
+    useGitHubStyle: true
+  "markdown-preview-katex": {}
+  "markdown-writer": {}
+  minimap:
+    displayCodeHighlights: false
+    displayMinimapOnLeft: true
+    plugins:
+      bookmarks: true
+      "find-and-replace": true
+      "git-diff": true
+      "highlight-selected": true
+      linter: true
+      pigments: true
+      selection: true
   "one-dark-ui": {}
-  "rust-api-docs-helper":
-    enableVisualHints: false
+  "one-light-ui": {}
   pigments: {}
-  "git-plus": {}
+  "quick-highlight":
+    decorate: "highlight"
   racer:
     racerBinPath: "/usr/bin/racer"
     rustSrcPath: "/home/yuta/rust/src"
-  "markdown-writer": {}
-  "git-diff":
-    showIconsInEditorGutter: true
-  "bracket-matcher":
-    autocompleteBrackets: false
-    autocompleteSmartQuotes: false
+  "rust-api-docs-helper":
+    enableVisualHints: false
+  "vim-mode":
+    useSmartcaseForSearch: true
+  welcome:
+    showOnStartup: false
 ".basic.html.text":
-  editor:
-    tabLength: 2
-".ruby.source":
   editor:
     tabLength: 2
 ".gfm.source":
   editor:
     softWrap: true
     softWrapAtPreferredLineLength: true
+".ruby.source":
+  editor:
+    tabLength: 2
 ".source.yaml":
   editor:
     tabLength: 2
