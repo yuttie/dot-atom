@@ -1,12 +1,24 @@
 "*":
+  "activate-power-mode":
+    particles:
+      size: {}
+      spawnCount: {}
+      totalCount: {}
+    screenShake: {}
   "atom-alignment": {}
   "atom-material-ui":
-    accentColor: "Cyan"
-    compactTreeView: true
-    depth: true
-    panelContrast: true
-    rippleAccentColor: true
-    showTabIcons: "Show on all tabs"
+    colors: {}
+    fonts:
+      fontSize: 20
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
   "atom-twitter-client": {}
   atomatigit: {}
   "autocomplete-clang": {}
@@ -20,17 +32,21 @@
   core:
     autoHideMenuBar: true
     disabledPackages: [
+      "vim-mode"
+      "vim-surround"
+      "vim-mode-visual-block"
       "hidpi"
     ]
     followSymlinks: true
+    telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "atom-material-syntax"
+      "atom-material-syntax-light"
     ]
   editor:
     backUpBeforeSaving: true
-    fontFamily: "'Midway', 'Source Code Pro', 'M+ 1m', 'Source Han Code JP', 'PowerlineSymbols', 'icomoon', 'FontAwesome', 'github-octicons'"
-    fontSize: 12
+    fontFamily: "'Midway', 'M+ 1m', 'Source Han Code JP', 'Midway Nerd Font', 'PowerlineSymbols', 'seti', 'icomoon', 'FontAwesome', 'octicons'"
+    fontSize: 16
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -39,12 +55,14 @@
     tabType: "soft"
   "exception-reporting":
     userId: "32cb7f2c-bae1-f5aa-3e75-17dc79b75d32"
+  "file-icon-supplement": {}
   "file-icons": {}
   "git-diff":
     showIconsInEditorGutter: true
   "git-plus": {}
   "haskell-ghc-mod": {}
-  hidpi: {}
+  hidpi:
+    scaleFactor: 1.23
   "highlight-line":
     hideHighlightOnSelect: true
   "ide-haskell": {}
@@ -68,12 +86,19 @@
     displayMinimapOnLeft: true
     plugins:
       bookmarks: true
+      bookmarksDecorationsZIndex: 0
       "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
+      "git-diffDecorationsZIndex": 0
       "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
       linter: true
+      linterDecorationsZIndex: 0
       pigments: true
+      pigmentsDecorationsZIndex: 0
       selection: true
+      selectionDecorationsZIndex: 0
   "one-dark-ui": {}
   "one-light-ui": {}
   pigments: {}
@@ -86,6 +111,16 @@
     enableVisualHints: false
   "vim-mode":
     useSmartcaseForSearch: true
+  "vim-mode-plus":
+    highlightSearch: true
+    ignoreCaseForSearch: true
+    ignoreCaseForSearchCurrentWord: true
+    showHoverOnOperate: true
+    showHoverSearchCounter: true
+    smoothScrollOnFullScrollMotion: true
+    smoothScrollOnHalfScrollMotion: true
+    useSmartcaseForSearch: true
+    useSmartcaseForSearchCurrentWord: true
   welcome:
     showOnStartup: false
 ".basic.html.text":
