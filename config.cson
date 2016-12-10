@@ -36,6 +36,15 @@
       "vim-surround"
       "vim-mode-visual-block"
       "hidpi"
+      "activate-power-mode"
+      "file-icon-supplement"
+      "markdown-preview"
+      "markdown-scroll-sync"
+      "markdown-format"
+      "markdown-toc"
+      "markdown-preview-plus"
+      "language-gfm"
+      "language-markdown"
     ]
     followSymlinks: true
     telemetryConsent: "limited"
